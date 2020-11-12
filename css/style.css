@@ -1,11 +1,24 @@
 /* NAV BAR */
-#navbar-container {}
+#navbar-container {
+    width: 100%;
+}
 
-#main-navbar {}
+#main-navbar {
+    text-align: center;
+    background-color: blue;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+}
 
-#main-navbar ul {}
+#main-navbar ul {
+    list-style-type: none;
+    display: block;
+}
 
-#main-navbar li {}
+#main-navbar li {
+
+}
 
 #main-navbar a {}
 
@@ -16,7 +29,10 @@
 
 #sidebar {}
 
-#sidebar-container {}
+#sidebar-container {
+    background-color: red;
+    position: fixed;
+}
 
 #sidebar-container ul {}
 
